@@ -1,0 +1,30 @@
+# LGMVIP-Task2
+I have Created Simple Calculator Using HTML,CSS,JS
+.calculator {
+  width: 250px;
+  margin: auto;
+  text-align:left;
+  background-color:black;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: px;
+  cursor: pointer;
+  color:black;
+  box-shadow: 0px 3px 30px ;
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+}
+
+button {
+  color:black;
+  padding: 15px;
+
+}
